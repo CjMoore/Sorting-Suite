@@ -1,11 +1,5 @@
 
-
-
-# class BubbleSort
-
-
-
-  def bubble_sort(to_be_sorted)
+def bubble_sort(to_be_sorted)
     sorted = false
   
     until sorted
@@ -17,18 +11,6 @@
                 sorted = false
             end
       end
-    end
-  end  
-# end
-
-# bs = BubbleSort.new
-
-# needs_sorting = ['d','b','a','f','c']
-
-# bs.sort(needs_sorting)
-
-
-# bubble_sort(needs_sorting)
-
-# puts needs_sorting
+   end
+end  
 
